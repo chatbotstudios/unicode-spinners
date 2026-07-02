@@ -11,11 +11,15 @@ interface SpinnerGridProps {
 export function SpinnerGrid({ search, speedMultiplier, color }: SpinnerGridProps) {
   const filteredSpinners = useMemo(() => {
     const query = search.toLowerCase();
+    const allNames = Object.keys(spinnersData as any);
+    const dashedNames = allNames.filter(n => n.includes('-'));
+    const strippedToDashed = new Map(dashedNames.map(n => [n.replace(/-/g, ''), n]));
+
     const entries = Object.entries(spinnersData as any);
     
     return entries.filter(([name, data]: [string, any]) => {
-      // Basic deduplication of aliases like dots8bit vs dots-8bit
-      if (!name.includes('-') && (spinnersData as any)[name.replace(/([0-9]+)/g, '-$1')] && name.match(/[0-9]/)) {
+      // Filter out legacy non-dashed aliases
+      if (!name.includes('-') && strippedToDashed.has(name)) {
         return false;
       }
       return name.toLowerCase().includes(query) || (data.category && data.category.toLowerCase().includes(query));
