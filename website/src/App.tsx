@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Hero } from './components/Hero';
 import { Controls } from './components/Controls';
 import { SpinnerGrid } from './components/SpinnerGrid';
+import { Documentation } from './components/Documentation';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -28,6 +29,7 @@ function App() {
           setColor={setColor}
         />
         <SpinnerGrid search={search} speedMultiplier={speed} color={color} />
+        <Documentation />
       </main>
     </div>
   );
