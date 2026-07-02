@@ -1,0 +1,75 @@
+{
+  "name": "unicode-spinners",
+  "version": "3.2.0",
+  "description": "Unicode spinner animations as raw frame data",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./braille": {
+      "import": {
+        "types": "./dist/braille.d.ts",
+        "default": "./dist/braille.js"
+      },
+      "require": {
+        "types": "./dist/braille.d.cts",
+        "default": "./dist/braille.cjs"
+      }
+    }
+  },
+  "bin": {
+    "unicode-spinners": "./scripts/demo.cjs"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "unicode-spinners-v2": "node scripts/demo.cjs --all",
+    "manage": "node scripts/manager.cjs",
+    "demo": "node scripts/demo.cjs",
+    "demo:list": "node scripts/demo.cjs --list",
+    "demo:review": "node scripts/demo.cjs --review",
+    "demo:web": "node scripts/demo.cjs --web",
+    "postinstall": "node scripts/postinstall.cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnargray-dev/unicode-spinners.git"
+  },
+  "homepage": "https://github.com/gunnargray-dev/unicode-spinners",
+  "keywords": [
+    "braille",
+    "spinner",
+    "unicode",
+    "animation",
+    "loading",
+    "cli",
+    "terminal"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nps": "^5.10.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "unicode-spinners": "^1.0.1"
+  }
+}

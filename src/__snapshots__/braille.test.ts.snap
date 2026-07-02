@@ -1,0 +1,4869 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`spinners > aesthetics > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "▰▰▰▱▱▱▱",
+    "▱▰▰▰▱▱▱",
+    "▱▱▰▰▰▱▱",
+    "▱▱▱▰▰▰▱",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > arc > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◜",
+    "◝",
+    "◞",
+    "◟",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > arrow-1 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "↑",
+    "↗",
+    "→",
+    "↘",
+    "↓",
+    "↙",
+    "←",
+    "↖",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > arrow-2 > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "⬆️",
+    "↗️",
+    "➡️",
+    "↘️",
+    "⬇️",
+    "↙️",
+    "⬅️",
+    "↖️",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > arrow-3 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "▹▹▹▹▸",
+    "▹▹▹▸▹",
+    "▹▹▸▹▹",
+    "▹▸▹▹▹",
+    "▸▹▹▹▹",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > arrow1 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "↑",
+    "↗",
+    "→",
+    "↘",
+    "↓",
+    "↙",
+    "←",
+    "↖",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > arrow2 > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "⬆️",
+    "↗️",
+    "➡️",
+    "↘️",
+    "⬇️",
+    "↙️",
+    "⬅️",
+    "↖️",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > arrow3 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "▹▹▹▹▸",
+    "▹▹▹▸▹",
+    "▹▹▸▹▹",
+    "▹▸▹▹▹",
+    "▸▹▹▹▹",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > atom-orbit > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "⠔⠋⠢",
+    "⠢⠙⠔",
+    "⠔⠹⠢",
+    "⠢⠸⠔",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > atomorbit > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "⠔⠋⠢",
+    "⠢⠙⠔",
+    "⠔⠹⠢",
+    "⠢⠸⠔",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > balloon-1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".",
+    "o",
+    "O",
+    "@",
+    "*",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > balloon-2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".",
+    "o",
+    "O",
+    "°",
+    " ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > balloon1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".",
+    "o",
+    "O",
+    "@",
+    "*",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > balloon2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".",
+    "o",
+    "O",
+    "°",
+    " ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > battery-charge > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[    ]",
+    "[■   ]",
+    "[■■  ]",
+    "[■■■ ]",
+    "[■■■■]",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > batterycharge > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[    ]",
+    "[■   ]",
+    "[■■  ]",
+    "[■■■ ]",
+    "[■■■■]",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > beaker-bubble > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🧪⠠",
+    "🧪⠐",
+    "🧪⠈",
+    "🧪⠁",
+    "🧪⠀",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > beakerbubble > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🧪⠠",
+    "🧪⠐",
+    "🧪⠈",
+    "🧪⠁",
+    "🧪⠀",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > betawave > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "ρββββββ",
+    "βρβββββ",
+    "ββρββββ",
+    "βββρβββ",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > binary > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "010111",
+    "110011",
+    "001100",
+    "101011",
+    "111001",
+    "010111",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > blink > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⣿",
+    "⠀",
+  ],
+  "interval": 500,
+}
+`;
+
+exports[`spinners > blue-pulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔹",
+    "🔷",
+    "🔹",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > bluepulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔹",
+    "🔷",
+    "🔹",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > bounce > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > bouncing-ball > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "(  ●  )",
+    "(   ● )",
+    "(    ●)",
+    "(   ● )",
+    "(  ●  )",
+    "( ●   )",
+    "(●    )",
+    "( ●   )",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > bouncing-bar > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[    ]",
+    "[=   ]",
+    "[==  ]",
+    "[=== ]",
+    "[ ===]",
+    "[  ==]",
+    "[   =]",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > bouncingball > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "(  ●  )",
+    "(   ● )",
+    "(    ●)",
+    "(   ● )",
+    "(  ●  )",
+    "( ●   )",
+    "(●    )",
+    "( ●   )",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > bouncingbar > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[    ]",
+    "[=   ]",
+    "[==  ]",
+    "[=== ]",
+    "[ ===]",
+    "[  ==]",
+    "[   =]",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > boxbounce-1 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▖",
+    "▘",
+    "▝",
+    "▗",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > boxbounce-2 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▌",
+    "▀",
+    "▐",
+    "▄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > boxbounce1 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▖",
+    "▘",
+    "▝",
+    "▗",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > boxbounce2 > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▌",
+    "▀",
+    "▐",
+    "▄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > bracket-spin > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⊏",
+    "⊓",
+    "⊐",
+    "⊔",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > bracketspin > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⊏",
+    "⊓",
+    "⊐",
+    "⊔",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > braille > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > braillewave > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀⠀",
+    "⢀⠀",
+    "⠠⠀",
+    "⠐⠀",
+    "⠈⠀",
+    "⠁⠀",
+    "⠂⠀",
+    "⠄⠀",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > breathe > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+    "⣷",
+    "⣧",
+    "⣇",
+    "⡇",
+    "⠇",
+    "⠃",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > butterfly-flap > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🦋  ",
+    " 🦋 ",
+    "  🦋",
+    " 🦋 ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > butterflyflap > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🦋  ",
+    " 🦋 ",
+    "  🦋",
+    " 🦋 ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > cascade > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡄",
+    "⠆",
+    "⠃",
+    "⠉",
+    "⠈",
+    "⠐",
+    "⠠",
+    "⢀",
+    "⡀",
+    "⠄",
+    "⠂",
+    "⠁",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > cat-pounce > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐱  🐭",
+    "🐱 🐭 ",
+    "🐱🐭  ",
+    "💥   ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > caterpillar-crawl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐛   ",
+    " 🐛  ",
+    "  🐛 ",
+    "   🐛",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > caterpillarcrawl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐛   ",
+    " 🐛  ",
+    "  🐛 ",
+    "   🐛",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > catpounce > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐱  🐭",
+    "🐱 🐭 ",
+    "🐱🐭  ",
+    "💥   ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > checker-board > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡒",
+    "⢔",
+    "⡒",
+    "⢔",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > checkerboard > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡒",
+    "⢔",
+    "⡒",
+    "⢔",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > christmas > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🎄",
+    "🎁",
+    "🎅",
+    "❄",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > circle > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◡",
+    "⊙",
+    "◠",
+    "⊙",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > circle-half > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◐",
+    "◓",
+    "◑",
+    "◒",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > circle-quarters > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◴",
+    "◷",
+    "◶",
+    "◵",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > circlehalf > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◐",
+    "◓",
+    "◑",
+    "◒",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > circlequarters > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◴",
+    "◷",
+    "◶",
+    "◵",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > clock > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🕛",
+    "🕐",
+    "🕑",
+    "🕒",
+    "🕓",
+    "🕔",
+    "🕕",
+    "🕖",
+    "🕗",
+    "🕘",
+    "🕙",
+    "🕚",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > coffee-steam > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☕  ",
+    "☕~ ",
+    "☕~~",
+    "☕~ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > coffeesteam > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☕  ",
+    "☕~ ",
+    "☕~~",
+    "☕~ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > columns > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡄⠀",
+    "⠆⠀",
+    "⠃⠀",
+    "⠉⠀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > cross-toggle > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "+",
+    "x",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > crosstoggle > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "+",
+    "x",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > diagswipe > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡿",
+    "⠟",
+    "⠻",
+    "⠽",
+    "⡿",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dino-run > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🦖  🌵",
+    "🦖 🌵 ",
+    "🦖🌵  ",
+    "🦖  🌵",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dinorun > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🦖  🌵",
+    "🦖 🌵 ",
+    "🦖🌵  ",
+    "🦖  🌵",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dna > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋⠉⠙⠚",
+    "⠉⠙⠚⠒",
+    "⠙⠚⠒⠤",
+    "⠚⠒⠤⠭",
+    "⠒⠤⠭⠳",
+    "⠤⠭⠳⡪",
+    "⠭⠳⡪⣜",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dog-tail > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐕  ",
+    "🐕~ ",
+    "🐕~~",
+    "🐕~ ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dogtail > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐕  ",
+    "🐕~ ",
+    "🐕~~",
+    "🐕~ ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dot-arrow > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠉",
+    "⠙",
+    "⠚",
+    "⠖",
+    "⠦",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dot-corners > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠈",
+    "⢀",
+    "⡀",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > dot-cross > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁⠂",
+    "⠄⡀",
+    "⢀⠠",
+    "⠐⠈",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dot-sinewave > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+    "⠁",
+    "⠂",
+    "⠄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dot-wave > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⠄",
+    "⠂",
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dotarrow > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠉",
+    "⠙",
+    "⠚",
+    "⠖",
+    "⠦",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dotcorners > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠈",
+    "⢀",
+    "⡀",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > dotcross > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁⠂",
+    "⠄⡀",
+    "⢀⠠",
+    "⠐⠈",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dots-2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⣾",
+    "⣽",
+    "⣻",
+    "⢿",
+    "⡿",
+    "⣟",
+    "⣯",
+    "⣷",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-3 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-4 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠚",
+    "⠞",
+    "⠖",
+    "⠦",
+    "⠴",
+    "⠲",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-5 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-6 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠉",
+    "⠙",
+    "⠚",
+    "⠖",
+    "⠦",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-7 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-8 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-8bit > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-9 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⢄",
+    "⢂",
+    "⢁",
+    "⡁",
+    "⡂",
+    "⡄",
+    "⡈",
+    "⢈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-10 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-11 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-12 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-13 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-14 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots-circle > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⣾",
+    "⣽",
+    "⣻",
+    "⢿",
+    "⡿",
+    "⣟",
+    "⣯",
+    "⣷",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots3 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots4 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠚",
+    "⠞",
+    "⠖",
+    "⠦",
+    "⠴",
+    "⠲",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots5 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots6 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠉",
+    "⠙",
+    "⠚",
+    "⠖",
+    "⠦",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots7 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots8 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots8bit > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots9 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⢄",
+    "⢂",
+    "⢁",
+    "⡁",
+    "⡂",
+    "⡄",
+    "⡈",
+    "⢈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots10 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots11 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots12 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots13 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dots14 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dotscircle > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > dotsinewave > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+    "⠁",
+    "⠂",
+    "⠄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dotwave > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⠄",
+    "⠂",
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > dqpb > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "d",
+    "q",
+    "p",
+    "b",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > dwarf-fortress > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "☺░£££",
+    "☺ ░££",
+    "☺  ░£",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > dwarffortress > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "☺░£££",
+    "☺ ░££",
+    "☺  ░£",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > earth > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🌍",
+    "🌎",
+    "🌏",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > eyeblink > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⠶",
+    "⠒",
+    "⠀",
+    "⠒",
+    "⠶",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fillsweep > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⣄",
+    "⣆",
+    "⡇",
+    "⠏",
+    "⠛",
+    "⠹",
+    "⢸",
+    "⣰",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > finger-dance > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "👆",
+    "👉",
+    "👇",
+    "👈",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fingerdance > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "👆",
+    "👉",
+    "👇",
+    "👈",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fire-swirl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔥💨",
+    "💨🔥",
+    "✨🔥",
+    "🔥✨",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fireswirl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔥💨",
+    "💨🔥",
+    "✨🔥",
+    "🔥✨",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fish > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "~ ><((º> ~",
+    "~  ><((º>~",
+    "~~  ><((º>",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > fistbump > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🤜 🤛",
+    "🤜✨🤛",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > flip > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "_",
+    "⎽",
+    "⎼",
+    "⎻",
+    "⎺",
+    "⎻",
+    "⎼",
+    "⎽",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > ghost-float > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "👻  ",
+    " 👻 ",
+    "  👻",
+    " 👻 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > ghostfloat > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "👻  ",
+    " 👻 ",
+    "  👻",
+    " 👻 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > gradient-sweep > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "░░░░░░",
+    "▒░░░░░",
+    "▓▒░░░░",
+    "█▓▒░░░",
+    "██▓▒░░",
+    "███▓▒░",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > gradientsweep > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "░░░░░░",
+    "▒░░░░░",
+    "▓▒░░░░",
+    "█▓▒░░░",
+    "██▓▒░░",
+    "███▓▒░",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > grenade > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⁎",
+    "⁕",
+    "⁖",
+    "⁘",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > grow-horizontal > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "▏",
+    "▎",
+    "▍",
+    "▌",
+    "▋",
+    "▊",
+    "▉",
+    "▊",
+    "▋",
+    "▌",
+    "▍",
+    "▎",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > grow-vertical > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    " ",
+    "▃",
+    "▄",
+    "▅",
+    "▆",
+    "▇",
+    "▆",
+    "▅",
+    "▄",
+    "▃",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > growhorizontal > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "▏",
+    "▎",
+    "▍",
+    "▌",
+    "▋",
+    "▊",
+    "▉",
+    "▊",
+    "▋",
+    "▌",
+    "▍",
+    "▎",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > growvertical > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    " ",
+    "▃",
+    "▄",
+    "▅",
+    "▆",
+    "▇",
+    "▆",
+    "▅",
+    "▄",
+    "▃",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > gym-lift > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "💪  ",
+    " 💪 ",
+    "  💪",
+    " 💪 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > gymlift > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "💪  ",
+    " 💪 ",
+    "  💪",
+    " 💪 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > hamburger > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "☱",
+    "☲",
+    "☴",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > heartbeat > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⣏⣹",
+    "⣟⣻",
+    "⣿⣿",
+    "⣟⣻",
+    "⣏⣹",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > heartpulse > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡄",
+    "⠆",
+    "⠃",
+    "⠉",
+    "⠈",
+    "⠐",
+    "⠠",
+    "⢀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > hearts > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "💛",
+    "🧡",
+    "❤",
+    "💜",
+    "💙",
+    "🩵",
+    "💚",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > helix > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠙⠢⣄⣠",
+    "⠙⠢⣄⣠",
+    "⠚⠔⣠⣄",
+    "⠖⠒⣠⣄",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > hourglass > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "⌛",
+    "⏳",
+  ],
+  "interval": 400,
+}
+`;
+
+exports[`spinners > hourglass-pulse > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⏳",
+    "⌛",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > hourglasspulse > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⏳",
+    "⌛",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > jumping-beans > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "∘𓃉𓃉",
+    "𓃉∘𓃉",
+    "𓃉𓃉∘",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > jumpingbeans > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "∘𓃉𓃉",
+    "𓃉∘𓃉",
+    "𓃉𓃉∘",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > layer > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "-",
+    "=",
+    "≡",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > legacy-braille > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacy-braillewave > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠁⠂⠄⡀",
+    "⠂⠄⡀⢀",
+    "⠄⡀⢀⠠",
+    "⡀⢀⠠⠐",
+    "⢀⠠⠐⠈",
+    "⠠⠐⠈⠁",
+    "⠐⠈⠁⠂",
+    "⠈⠁⠂⠄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacy-breathe > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀",
+    "⠂",
+    "⠌",
+    "⡑",
+    "⢕",
+    "⢝",
+    "⣫",
+    "⣟",
+    "⣿",
+    "⣟",
+    "⣫",
+    "⢝",
+    "⢕",
+    "⡑",
+    "⠌",
+    "⠂",
+    "⠀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacy-cascade > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠀⠀⠀",
+    "⠀⠀⠀⠀",
+    "⠁⠀⠀⠀",
+    "⠋⠀⠀⠀",
+    "⠞⠁⠀⠀",
+    "⡴⠋⠀⠀",
+    "⣠⠞⠁⠀",
+    "⢀⡴⠋⠀",
+    "⠀⣠⠞⠁",
+    "⠀⢀⡴⠋",
+    "⠀⠀⣠⠞",
+    "⠀⠀⢀⡴",
+    "⠀⠀⠀⣠",
+    "⠀⠀⠀⢀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacy-checkerboard > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢕⢕⢕",
+    "⡪⡪⡪",
+    "⢊⠔⡡",
+    "⡡⢊⠔",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > legacy-columns > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⡀⠀⠀",
+    "⡄⠀⠀",
+    "⡆⠀⠀",
+    "⡇⠀⠀",
+    "⣇⠀⠀",
+    "⣧⠀⠀",
+    "⣷⠀⠀",
+    "⣿⠀⠀",
+    "⣿⡀⠀",
+    "⣿⡄⠀",
+    "⣿⡆⠀",
+    "⣿⡇⠀",
+    "⣿⣇⠀",
+    "⣿⣧⠀",
+    "⣿⣷⠀",
+    "⣿⣿⠀",
+    "⣿⣿⡀",
+    "⣿⣿⡄",
+    "⣿⣿⡆",
+    "⣿⣿⡇",
+    "⣿⣿⣇",
+    "⣿⣿⣧",
+    "⣿⣿⣷",
+    "⣿⣿⣿",
+    "⣿⣿⣿",
+    "⠀⠀⠀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacy-diagswipe > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠁⠀",
+    "⠋⠀",
+    "⠟⠁",
+    "⡿⠋",
+    "⣿⠟",
+    "⣿⡿",
+    "⣿⣿",
+    "⣿⣿",
+    "⣾⣿",
+    "⣴⣿",
+    "⣠⣾",
+    "⢀⣴",
+    "⠀⣠",
+    "⠀⢀",
+    "⠀⠀",
+    "⠀⠀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacy-dna > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠋⠉⠙⠚",
+    "⠉⠙⠚⠒",
+    "⠙⠚⠒⠂",
+    "⠚⠒⠂⠂",
+    "⠒⠂⠂⠒",
+    "⠂⠂⠒⠲",
+    "⠂⠒⠲⠴",
+    "⠒⠲⠴⠤",
+    "⠲⠴⠤⠄",
+    "⠴⠤⠄⠋",
+    "⠤⠄⠋⠉",
+    "⠄⠋⠉⠙",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacy-fillsweep > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⣀⣀",
+    "⣤⣤",
+    "⣶⣶",
+    "⣿⣿",
+    "⣿⣿",
+    "⣿⣿",
+    "⣶⣶",
+    "⣤⣤",
+    "⣀⣀",
+    "⠀⠀",
+    "⠀⠀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacy-helix > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢌⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacy-orbit > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠃",
+    "⠉",
+    "⠘",
+    "⠰",
+    "⢠",
+    "⣀",
+    "⡄",
+    "⠆",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacy-pulse > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠶⠀",
+    "⠰⣿⠆",
+    "⢾⣉⡷",
+    "⣏⠀⣹",
+    "⡁⠀⢈",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > legacy-rain > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢁⠂⠔⠈",
+    "⠂⠌⡠⠐",
+    "⠄⡐⢀⠡",
+    "⡈⠠⠀⢂",
+    "⠐⢀⠁⠄",
+    "⠠⠁⠊⡀",
+    "⢁⠂⠔⠈",
+    "⠂⠌⡠⠐",
+    "⠄⡐⢀⠡",
+    "⡈⠠⠀⢂",
+    "⠐⢀⠁⠄",
+    "⠠⠁⠊⡀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacy-scan > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠀⠀⠀",
+    "⡇⠀⠀⠀",
+    "⣿⠀⠀⠀",
+    "⢸⡇⠀⠀",
+    "⠀⣿⠀⠀",
+    "⠀⢸⡇⠀",
+    "⠀⠀⣿⠀",
+    "⠀⠀⢸⡇",
+    "⠀⠀⠀⣿",
+    "⠀⠀⠀⢸",
+  ],
+  "interval": 70,
+}
+`;
+
+exports[`spinners > legacy-scanline > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠉⠉⠉",
+    "⠓⠓⠓",
+    "⠦⠦⠦",
+    "⣄⣄⣄",
+    "⠦⠦⠦",
+    "⠓⠓⠓",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > legacy-snake > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⣁⡀",
+    "⣉⠀",
+    "⡉⠁",
+    "⠉⠉",
+    "⠈⠙",
+    "⠀⠛",
+    "⠐⠚",
+    "⠒⠒",
+    "⠖⠂",
+    "⠶⠀",
+    "⠦⠄",
+    "⠤⠤",
+    "⠠⢤",
+    "⠀⣤",
+    "⢀⣠",
+    "⣀⣀",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacy-sparkle > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⡡⠊⢔⠡",
+    "⠊⡰⡡⡘",
+    "⢔⢅⠈⢢",
+    "⡁⢂⠆⡍",
+    "⢔⠨⢑⢐",
+    "⠨⡑⡠⠊",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > legacy-waverows > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠖⠉⠉⠑",
+    "⡠⠖⠉⠉",
+    "⣠⡠⠖⠉",
+    "⣄⣠⡠⠖",
+    "⠢⣄⣠⡠",
+    "⠙⠢⣄⣠",
+    "⠉⠙⠢⣄",
+    "⠊⠉⠙⠢",
+    "⠜⠊⠉⠙",
+    "⡤⠜⠊⠉",
+    "⣀⡤⠜⠊",
+    "⢤⣀⡤⠜",
+    "⠣⢤⣀⡤",
+    "⠑⠣⢤⣀",
+    "⠉⠑⠣⢤",
+    "⠋⠉⠑⠣",
+  ],
+  "interval": 90,
+}
+`;
+
+exports[`spinners > legacybraille > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠹",
+    "⠸",
+    "⠼",
+    "⠴",
+    "⠦",
+    "⠧",
+    "⠇",
+    "⠏",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacybraillewave > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠁⠂⠄⡀",
+    "⠂⠄⡀⢀",
+    "⠄⡀⢀⠠",
+    "⡀⢀⠠⠐",
+    "⢀⠠⠐⠈",
+    "⠠⠐⠈⠁",
+    "⠐⠈⠁⠂",
+    "⠈⠁⠂⠄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacybreathe > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀",
+    "⠂",
+    "⠌",
+    "⡑",
+    "⢕",
+    "⢝",
+    "⣫",
+    "⣟",
+    "⣿",
+    "⣟",
+    "⣫",
+    "⢝",
+    "⢕",
+    "⡑",
+    "⠌",
+    "⠂",
+    "⠀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacycascade > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠀⠀⠀",
+    "⠀⠀⠀⠀",
+    "⠁⠀⠀⠀",
+    "⠋⠀⠀⠀",
+    "⠞⠁⠀⠀",
+    "⡴⠋⠀⠀",
+    "⣠⠞⠁⠀",
+    "⢀⡴⠋⠀",
+    "⠀⣠⠞⠁",
+    "⠀⢀⡴⠋",
+    "⠀⠀⣠⠞",
+    "⠀⠀⢀⡴",
+    "⠀⠀⠀⣠",
+    "⠀⠀⠀⢀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacycheckerboard > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢕⢕⢕",
+    "⡪⡪⡪",
+    "⢊⠔⡡",
+    "⡡⢊⠔",
+  ],
+  "interval": 250,
+}
+`;
+
+exports[`spinners > legacycolumns > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⡀⠀⠀",
+    "⡄⠀⠀",
+    "⡆⠀⠀",
+    "⡇⠀⠀",
+    "⣇⠀⠀",
+    "⣧⠀⠀",
+    "⣷⠀⠀",
+    "⣿⠀⠀",
+    "⣿⡀⠀",
+    "⣿⡄⠀",
+    "⣿⡆⠀",
+    "⣿⡇⠀",
+    "⣿⣇⠀",
+    "⣿⣧⠀",
+    "⣿⣷⠀",
+    "⣿⣿⠀",
+    "⣿⣿⡀",
+    "⣿⣿⡄",
+    "⣿⣿⡆",
+    "⣿⣿⡇",
+    "⣿⣿⣇",
+    "⣿⣿⣧",
+    "⣿⣿⣷",
+    "⣿⣿⣿",
+    "⣿⣿⣿",
+    "⠀⠀⠀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacydiagswipe > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠁⠀",
+    "⠋⠀",
+    "⠟⠁",
+    "⡿⠋",
+    "⣿⠟",
+    "⣿⡿",
+    "⣿⣿",
+    "⣿⣿",
+    "⣾⣿",
+    "⣴⣿",
+    "⣠⣾",
+    "⢀⣴",
+    "⠀⣠",
+    "⠀⢀",
+    "⠀⠀",
+    "⠀⠀",
+  ],
+  "interval": 60,
+}
+`;
+
+exports[`spinners > legacydna > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠋⠉⠙⠚",
+    "⠉⠙⠚⠒",
+    "⠙⠚⠒⠂",
+    "⠚⠒⠂⠂",
+    "⠒⠂⠂⠒",
+    "⠂⠂⠒⠲",
+    "⠂⠒⠲⠴",
+    "⠒⠲⠴⠤",
+    "⠲⠴⠤⠄",
+    "⠴⠤⠄⠋",
+    "⠤⠄⠋⠉",
+    "⠄⠋⠉⠙",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacyfillsweep > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⣀⣀",
+    "⣤⣤",
+    "⣶⣶",
+    "⣿⣿",
+    "⣿⣿",
+    "⣿⣿",
+    "⣶⣶",
+    "⣤⣤",
+    "⣀⣀",
+    "⠀⠀",
+    "⠀⠀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacyhelix > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢌⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+    "⢎⣉⢎⣉",
+    "⣉⡱⣉⡱",
+    "⣉⢎⣉⢎",
+    "⡱⣉⡱⣉",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacyorbit > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠃",
+    "⠉",
+    "⠘",
+    "⠰",
+    "⢠",
+    "⣀",
+    "⡄",
+    "⠆",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacypulse > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠶⠀",
+    "⠰⣿⠆",
+    "⢾⣉⡷",
+    "⣏⠀⣹",
+    "⡁⠀⢈",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > legacyrain > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⢁⠂⠔⠈",
+    "⠂⠌⡠⠐",
+    "⠄⡐⢀⠡",
+    "⡈⠠⠀⢂",
+    "⠐⢀⠁⠄",
+    "⠠⠁⠊⡀",
+    "⢁⠂⠔⠈",
+    "⠂⠌⡠⠐",
+    "⠄⡐⢀⠡",
+    "⡈⠠⠀⢂",
+    "⠐⢀⠁⠄",
+    "⠠⠁⠊⡀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > legacyscan > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠀⠀⠀⠀",
+    "⡇⠀⠀⠀",
+    "⣿⠀⠀⠀",
+    "⢸⡇⠀⠀",
+    "⠀⣿⠀⠀",
+    "⠀⢸⡇⠀",
+    "⠀⠀⣿⠀",
+    "⠀⠀⢸⡇",
+    "⠀⠀⠀⣿",
+    "⠀⠀⠀⢸",
+  ],
+  "interval": 70,
+}
+`;
+
+exports[`spinners > legacyscanline > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠉⠉⠉",
+    "⠓⠓⠓",
+    "⠦⠦⠦",
+    "⣄⣄⣄",
+    "⠦⠦⠦",
+    "⠓⠓⠓",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > legacysnake > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⣁⡀",
+    "⣉⠀",
+    "⡉⠁",
+    "⠉⠉",
+    "⠈⠙",
+    "⠀⠛",
+    "⠐⠚",
+    "⠒⠒",
+    "⠖⠂",
+    "⠶⠀",
+    "⠦⠄",
+    "⠤⠤",
+    "⠠⢤",
+    "⠀⣤",
+    "⢀⣠",
+    "⣀⣀",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > legacysparkle > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⡡⠊⢔⠡",
+    "⠊⡰⡡⡘",
+    "⢔⢅⠈⢢",
+    "⡁⢂⠆⡍",
+    "⢔⠨⢑⢐",
+    "⠨⡑⡠⠊",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > legacywaverows > frames match snapshot 1`] = `
+{
+  "category": "legacy",
+  "frames": [
+    "⠖⠉⠉⠑",
+    "⡠⠖⠉⠉",
+    "⣠⡠⠖⠉",
+    "⣄⣠⡠⠖",
+    "⠢⣄⣠⡠",
+    "⠙⠢⣄⣠",
+    "⠉⠙⠢⣄",
+    "⠊⠉⠙⠢",
+    "⠜⠊⠉⠙",
+    "⡤⠜⠊⠉",
+    "⣀⡤⠜⠊",
+    "⢤⣀⡤⠜",
+    "⠣⢤⣀⡤",
+    "⠑⠣⢤⣀",
+    "⠉⠑⠣⢤",
+    "⠋⠉⠑⠣",
+  ],
+  "interval": 90,
+}
+`;
+
+exports[`spinners > line-1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "|",
+    "/",
+    "-",
+    "\\",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > line-2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > line1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "|",
+    "/",
+    "-",
+    "\\",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > line2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > love-pulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "💖  ",
+    "💖✨ ",
+    "💖✨⚡",
+    "💖✨ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > lovepulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "💖  ",
+    "💖✨ ",
+    "💖✨⚡",
+    "💖✨ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > material > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▁",
+    "▂",
+    "▃",
+    "▄",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > meter > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "▰▱▱▱▱",
+    "▰▰▱▱▱",
+    "▰▰▰▱▱",
+    "▰▰⠰▱▱",
+    "▰▰▰▰▱",
+    "▰▰▰▰▰",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > mindblown > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "😧",
+    "🤯",
+  ],
+  "interval": 300,
+}
+`;
+
+exports[`spinners > mitosis > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "⠀⠂⠀",
+    "⠀⠒⠀",
+    "⠀⠶⠀",
+    "⠶⠶⠀",
+    "⠶⠀⠶",
+    "⠒⠀⠒",
+    "⠂⠀⠂",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > mix-pulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔸",
+    "🔷",
+    "🔸",
+    "🔶",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > mixpulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔸",
+    "🔷",
+    "🔸",
+    "🔶",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > monkey > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🙈",
+    "🙉",
+    "🙊",
+  ],
+  "interval": 300,
+}
+`;
+
+exports[`spinners > moon > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🌑",
+    "🌒",
+    "🌓",
+    "🌔",
+    "🌕",
+    "🌖",
+    "🌗",
+    "🌘",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > music-beat > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🎵  ",
+    " 🎵 ",
+    "  🎵",
+    " 🎵 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > musicbeat > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🎵  ",
+    " 🎵 ",
+    "  🎵",
+    " 🎵 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > ninja-slice > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🥷🗡️ ",
+    "🥷💥  ",
+    "🥷✨  ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > ninjaslice > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🥷🗡️ ",
+    "🥷💥  ",
+    "🥷✨  ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > noise > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "▓",
+    "▒",
+    "░",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > orange-pulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔸",
+    "🔶",
+    "🔸",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > orangepulse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔸",
+    "🔶",
+    "🔸",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > orbit > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pacman > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "d ∙ ∙ ∙",
+    "d∙ ∙ ∙ ",
+    "● ∙ ∙  ",
+    "o  ∙ ∙ ",
+    " ● ∙ ∙ ",
+    " o ∙ ∙ ",
+    "  ● ∙  ",
+    "  o ∙  ",
+    "   ●   ",
+    "   o   ",
+    "       ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pendulum > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡇",
+    "⠸",
+    "⠴",
+    "⠦",
+    "⠇",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > percent-load > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[  0%]",
+    "[ 10%]",
+    "[ 20%]",
+    "[ 30%]",
+    "[ 40%]",
+    "[ 50%]",
+    "[ 60%]",
+    "[ 75%]",
+    "[ 90%]",
+    "[ 99%]",
+    "[100%]",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > percentload > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "[  0%]",
+    "[ 10%]",
+    "[ 20%]",
+    "[ 30%]",
+    "[ 40%]",
+    "[ 50%]",
+    "[ 60%]",
+    "[ 75%]",
+    "[ 90%]",
+    "[ 99%]",
+    "[100%]",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pipe > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "┤",
+    "┘",
+    "┴",
+    "└",
+    "├",
+    "┌",
+    "┬",
+    "┐",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > point > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "∙∙∙",
+    "●∙∙",
+    "∙●∙",
+    "∙∙●",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pong > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🏓      ·",
+    "🏓     · ",
+    "🏓    ·  ",
+    "🏓   ·   ",
+    "🏓  ·    ",
+    "🏓 ·     ",
+    "🏓·      ",
+    "·🏓      ",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > popcorn-pop > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🍿  ",
+    "🍿💥 ",
+    "🍿🍿 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > popcornpop > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🍿  ",
+    "🍿💥 ",
+    "🍿🍿 ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > progress-dots > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "⠀",
+    "⠄",
+    "⠆",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > progressdots > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "⠀",
+    "⠄",
+    "⠆",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > pulse > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠰",
+    "⠴",
+    "⠿",
+    "⠴",
+    "⠰",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pulse-burst > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > pulse-orbit > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pulse-soft > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠠",
+    "⠤",
+    "⠶",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pulse-spiral > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 90,
+}
+`;
+
+exports[`spinners > pulse-square > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠤",
+    "⠦",
+    "⠶",
+    "⠴",
+    "⠤",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pulse-x > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⠱",
+    "⢎",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pulseburst > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > pulseorbit > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+    "⠒",
+    "⠐",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pulsesoft > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠠",
+    "⠤",
+    "⠶",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pulsespiral > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 90,
+}
+`;
+
+exports[`spinners > pulsesquare > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠤",
+    "⠦",
+    "⠶",
+    "⠴",
+    "⠤",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > pulsex > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⠱",
+    "⢎",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > pyramid > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⣀",
+    "⣄",
+    "⣆",
+    "⡇",
+    "⠏",
+    "⠛",
+    "⠹",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > quadblock > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "▙",
+    "▛",
+    "▜",
+    "▟",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > radar > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠉",
+    "⠙",
+    "⠚",
+    "⠖",
+    "⠦",
+    "⠤",
+    "⠠",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > radar-2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > radar2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > rain > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠠",
+    "⠐",
+    "⠈",
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > random > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > ripple > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > robot-search > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🤖🔴",
+    "🤖🔵",
+    "🤖🟢",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > robotsearch > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🤖🔴",
+    "🤖🔵",
+    "🤖🟢",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > rolling-line > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "-",
+    "＼",
+    "|",
+    "／",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > rollingline > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "-",
+    "＼",
+    "|",
+    "／",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > runner > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🏃",
+    "🚶",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > sand > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > sauron > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "(◎)",
+    "(◉)",
+    "(◎)",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > scan > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡇",
+    "⠏",
+    "⠛",
+    "⠹",
+    "⢸",
+    "⣰",
+    "⣤",
+    "⣆",
+  ],
+  "interval": 70,
+}
+`;
+
+exports[`spinners > scanline > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠒⠒⠒",
+    "⠤⠤⠤",
+    "⣀⣀⣀",
+    "⠤⠤⠤",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > scroll-dots > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > scrolldots > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > shark > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "▐____|\\___▌",
+    "▐___|\\____▌",
+    "▐__|\\_____▌",
+    "▐_|\\______▌",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > shooting-star > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☄️    ",
+    " ☄️   ",
+    "  ☄️  ",
+    "   ☄️ ",
+    "    ☄️",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > shootingstar > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☄️    ",
+    " ☄️   ",
+    "  ☄️  ",
+    "   ☄️ ",
+    "    ☄️",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > simple-dots > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".  ",
+    ".. ",
+    "...",
+    " ..",
+    "  .",
+    "   ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > simpledots > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    ".  ",
+    ".. ",
+    "...",
+    " ..",
+    "  .",
+    "   ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > smiley > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "😊",
+    "🤩",
+    "🙄",
+    "😆",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > snail-crawl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐌    ",
+    " 🐌   ",
+    "  🐌  ",
+    "   🐌 ",
+    "    🐌",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > snailcrawl > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🐌    ",
+    " 🐌   ",
+    "  🐌  ",
+    "   🐌 ",
+    "    🐌",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > snake > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠭⠳⡪⣜",
+    "⢗⠳⡪⣜",
+    "⢗⠹⡪⣜",
+    "⢗⠹⢪⣜",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > soccer-header > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🧑 ⚽️ 🧑",
+    "🧑⚽️  🧑",
+    "🧑  ⚽️🧑",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > soccerheader > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🧑 ⚽️ 🧑",
+    "🧑⚽️  🧑",
+    "🧑  ⚽️🧑",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > solar-eclipse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☀",
+    "🌘",
+    "🌗",
+    "🌖",
+    "🌕",
+    "🌔",
+    "🌓",
+    "🌒",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > solareclipse > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☀",
+    "🌘",
+    "🌗",
+    "🌖",
+    "🌕",
+    "🌔",
+    "🌓",
+    "🌒",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > space-invaders > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "👾    ",
+    "👾.   ",
+    "👾 .  ",
+    " 👾   ",
+    " 👾.  ",
+    " 👾 . ",
+    "  👾  ",
+    "  👾. ",
+    "  👾 .",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > space-travel > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🚀.  ",
+    "🚀 . ",
+    "🚀  .",
+    "🚀   ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > spaceinvaders > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "👾    ",
+    "👾.   ",
+    "👾 .  ",
+    " 👾   ",
+    " 👾.  ",
+    " 👾 . ",
+    "  👾  ",
+    "  👾. ",
+    "  👾 .",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > spacetravel > frames match snapshot 1`] = `
+{
+  "category": "fun",
+  "frames": [
+    "🚀.  ",
+    "🚀 . ",
+    "🚀  .",
+    "🚀   ",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > sparkle > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠋",
+    "⠙",
+    "⠚",
+    "⠞",
+    "⠖",
+    "⠦",
+    "⠴",
+    "⠲",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > speaker > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🔈",
+    "🔉",
+    "🔊",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > spiral > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠟",
+    "⠯",
+    "⠷",
+    "⠾",
+    "⠽",
+    "⠻",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > square-corners > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◰",
+    "◱",
+    "◲",
+    "◳",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > squarecorners > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◰",
+    "◱",
+    "◲",
+    "◳",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > squish > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "╪",
+    "╫",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > star-1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "✶",
+    "✸",
+    "✹",
+    "✺",
+    "✹",
+    "✷",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > star-2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "+",
+    "x",
+    "*",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > star1 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "✶",
+    "✸",
+    "✹",
+    "✺",
+    "✹",
+    "✷",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > star2 > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "+",
+    "x",
+    "*",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > storm-flash > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🌧️  ",
+    "🌧️⚡ ",
+    "🌧️✨ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > stormflash > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🌧️  ",
+    "🌧️⚡ ",
+    "🌧️✨ ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > tallgrass > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "{////~}",
+    "{///~/}",
+    "{//~//}",
+    "{/~///}",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > tetris > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡀",
+    "⣀",
+    "⣄",
+    "⣆",
+    "⡇",
+    "⠏",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > time-travel > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🕐",
+    "🕑",
+    "🕒",
+    "🕓",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > timetravel > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🕐",
+    "🕑",
+    "🕒",
+    "🕓",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > toggle-1 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⊶",
+    "⊷",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-2 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "▪",
+    "▫",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-3 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "■",
+    "□",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-4 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⬢",
+    "⬡",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-5 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "▮",
+    "▯",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-6 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "☯",
+    "☿",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle-7 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⦿",
+    "○",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-8 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "◌",
+    "◍",
+    "◎",
+    "◍",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-9 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "◎",
+    "⦿",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-10 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "㊀",
+    "㊁",
+    "㊂",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle-11 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⧇",
+    "⧈",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle-12 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "☖",
+    "☗",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle-13 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "-",
+    "=",
+    "≡",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > toggle1 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⊶",
+    "⊷",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle2 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "▪",
+    "▫",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle3 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "■",
+    "□",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle4 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⬢",
+    "⬡",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle5 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "▮",
+    "▯",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle6 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "☯",
+    "☿",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle7 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⦿",
+    "○",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle8 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "◌",
+    "◍",
+    "◎",
+    "◍",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle9 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "◎",
+    "⦿",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle10 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "㊀",
+    "㊁",
+    "㊂",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle11 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "⧇",
+    "⧈",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > toggle12 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "☖",
+    "☗",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > toggle13 > frames match snapshot 1`] = `
+{
+  "category": "toggle",
+  "frames": [
+    "-",
+    "=",
+    "≡",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > triangle > frames match snapshot 1`] = `
+{
+  "category": "geometric",
+  "frames": [
+    "◢",
+    "◣",
+    "◤",
+    "◥",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > trigram > frames match snapshot 1`] = `
+{
+  "category": "simple",
+  "frames": [
+    "☰",
+    "☱",
+    "☲",
+    "☳",
+    "☴",
+    "☵",
+    "☶",
+    "☷",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > typewriter > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "⠁",
+    "⠃",
+    "⠇",
+    "⡇",
+    "⣇",
+    "⣧",
+    "⣷",
+    "⣿",
+  ],
+  "interval": 120,
+}
+`;
+
+exports[`spinners > ufo-abduct > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🛸👽🛸",
+    "🛸🐄🛸",
+    "🛸✨🛸",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > ufoabduct > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🛸👽🛸",
+    "🛸🐄🛸",
+    "🛸✨🛸",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > vortex > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠟",
+    "⠯",
+    "⠷",
+    "⠾",
+    "⠽",
+    "⠻",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > wave-2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > wave2 > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠂",
+    "⠒",
+    "⠲",
+    "⠴",
+    "⠦",
+    "⠖",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > waverows > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠉",
+    "⠒",
+    "⠤",
+    "⣀",
+    "⠤",
+    "⠒",
+  ],
+  "interval": 90,
+}
+`;
+
+exports[`spinners > weather > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "☀️",
+    "🌤️",
+    "☁️",
+    "🌧️",
+    "🌩️",
+  ],
+  "interval": 200,
+}
+`;
+
+exports[`spinners > wifi-search > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "   ",
+    "·  ",
+    "⠂  ",
+    "⠶  ",
+    "⠿  ",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > wifisearch > frames match snapshot 1`] = `
+{
+  "category": "progress",
+  "frames": [
+    "   ",
+    "·  ",
+    "⠂  ",
+    "⠶  ",
+    "⠿  ",
+  ],
+  "interval": 180,
+}
+`;
+
+exports[`spinners > wipe > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⡇",
+    "⠏",
+    "⠛",
+    "⠹",
+    "⢸",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > wizard-spell > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🧙‍♂️  ",
+    "🧙‍♂️✨ ",
+    "🧙‍♂️ ✨",
+    "🧙‍♂️  ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > wizardspell > frames match snapshot 1`] = `
+{
+  "category": "emoji",
+  "frames": [
+    "🧙‍♂️  ",
+    "🧙‍♂️✨ ",
+    "🧙‍♂️ ✨",
+    "🧙‍♂️  ",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > x-double > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⠱",
+    "⢎",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > x-fill > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⡳",
+    "⢞",
+    "⠿",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > x-sequence > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > x-sync > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > xdouble > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⠱",
+    "⢎",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > xfill > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+    "⡳",
+    "⢞",
+    "⠿",
+  ],
+  "interval": 100,
+}
+`;
+
+exports[`spinners > xsequence > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;
+
+exports[`spinners > xsync > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠱",
+    "⢎",
+  ],
+  "interval": 150,
+}
+`;
+
+exports[`spinners > zigzag > frames match snapshot 1`] = `
+{
+  "category": "braille",
+  "frames": [
+    "⠁",
+    "⠂",
+    "⠄",
+    "⡀",
+    "⢀",
+    "⠠",
+    "⠐",
+    "⠈",
+  ],
+  "interval": 80,
+}
+`;

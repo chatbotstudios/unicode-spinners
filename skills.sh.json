@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Terminal & TUI Animations",
+      "description": "Interactive console loading states, CLI progress indicators, and procedural Braille grid custom rendering.",
+      "skills": [
+        "unicode-spinners"
+      ]
+    }
+  ]
+}
