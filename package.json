@@ -50,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunnargray-dev/unicode-spinners.git"
+    "url": "git+https://github.com/chatbotstudios/unicode-spinners.git"
   },
-  "homepage": "https://github.com/gunnargray-dev/unicode-spinners",
+  "homepage": "https://github.com/chatbotstudios/unicode-spinners",
   "keywords": [
     "braille",
     "spinner",
