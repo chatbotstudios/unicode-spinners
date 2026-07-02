@@ -68,8 +68,5 @@
     "tsup": "^8.4.0",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
-  },
-  "dependencies": {
-    "unicode-spinners": "^1.0.1"
   }
 }
