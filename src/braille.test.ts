@@ -1,13 +1,12 @@
 import { describe, it, expect } from 'vitest';
 import { spinners, gridToBraille, makeGrid } from './braille';
-import type { BrailleSpinnerName } from './braille';
 
 describe('makeGrid', () => {
   it('creates grid with correct dimensions', () => {
     const g = makeGrid(4, 8);
     expect(g.length).toBe(4);
     expect(g[0].length).toBe(8);
-    expect(g.every(row => row.every(cell => cell === false))).toBe(true);
+    expect(g.every((row) => row.every((cell) => cell === false))).toBe(true);
   });
 
   it('returns empty array for zero dimensions', () => {
@@ -101,39 +100,104 @@ describe('spinners', () => {
   const allKeys = Object.keys(spinners);
 
   it('exports exactly 150 unique primary spinners along with compact aliases', () => {
-    const primaryKeys = allKeys.filter(key => {
+    const primaryKeys = allKeys.filter((key) => {
       if (key.includes('-')) return true;
       // If no-dash counterpart exists with a dash, it's an alias
-      const dashedCounterpart = key.replace(/([0-9]+)/g, '-$1').replace(/([a-z]+)([A-Z])/g, '$1-$2').toLowerCase();
+      const dashedCounterpart = key
+        .replace(/([0-9]+)/g, '-$1')
+        .replace(/([a-z]+)([A-Z])/g, '$1-$2')
+        .toLowerCase();
       if (dashedCounterpart !== key && allKeys.includes(dashedCounterpart)) return false;
-      
+
       if (key.startsWith('legacy') && !key.includes('-')) {
         const dashed = 'legacy-' + key.slice(6);
         if (dashed !== key && allKeys.includes(dashed)) return false;
       }
-      
+
       // Manual list of custom dash overrides
       const specialAliases = [
-        'dots8bit', 'dotscircle', 'radar2', 'checkerboard', 'wave2', 'progressdots',
-        'pulsesoft', 'pulseburst', 'pulsesquare', 'pulseorbit', 'pulsespiral', 'pulsex',
-        'xsync', 'xsequence', 'xdouble', 'xfill', 'dotwave', 'dotsinewave', 'dotcross',
-        'dotcorners', 'dotarrow', 'line1', 'line2', 'rollingline', 'simpledots', 'scrolldots',
-        'star1', 'star2', 'growvertical', 'growhorizontal', 'balloon1', 'balloon2',
-        'boxbounce1', 'boxbounce2', 'squarecorners', 'circlequarters', 'circlehalf',
-        'bracketspin', 'crosstoggle', 'bouncingbar', 'bouncingball', 'gradientsweep',
-        'fingerdance', 'soccerheader', 'orangepulse', 'bluepulse', 'mixpulse', 'timetravel',
-        'jumpingbeans', 'dwarffortress',
-        'spaceinvaders', 'atomorbit', 'beakerbubble', 'wifisearch', 'batterycharge',
-        'percentload', 'solareclipse', 'shootingstar', 'spacetravel', 'ghostfloat',
-        'wizardspell', 'butterflyflap', 'caterpillarcrawl', 'dogtail', 'hourglasspulse',
+        'dots8bit',
+        'dotscircle',
+        'radar2',
+        'checkerboard',
+        'wave2',
+        'progressdots',
+        'pulsesoft',
+        'pulseburst',
+        'pulsesquare',
+        'pulseorbit',
+        'pulsespiral',
+        'pulsex',
+        'xsync',
+        'xsequence',
+        'xdouble',
+        'xfill',
+        'dotwave',
+        'dotsinewave',
+        'dotcross',
+        'dotcorners',
+        'dotarrow',
+        'line1',
+        'line2',
+        'rollingline',
+        'simpledots',
+        'scrolldots',
+        'star1',
+        'star2',
+        'growvertical',
+        'growhorizontal',
+        'balloon1',
+        'balloon2',
+        'boxbounce1',
+        'boxbounce2',
+        'squarecorners',
+        'circlequarters',
+        'circlehalf',
+        'bracketspin',
+        'crosstoggle',
+        'bouncingbar',
+        'bouncingball',
+        'gradientsweep',
+        'fingerdance',
+        'soccerheader',
+        'orangepulse',
+        'bluepulse',
+        'mixpulse',
+        'timetravel',
+        'jumpingbeans',
+        'dwarffortress',
+        'spaceinvaders',
+        'atomorbit',
+        'beakerbubble',
+        'wifisearch',
+        'batterycharge',
+        'percentload',
+        'solareclipse',
+        'shootingstar',
+        'spacetravel',
+        'ghostfloat',
+        'wizardspell',
+        'butterflyflap',
+        'caterpillarcrawl',
+        'dogtail',
+        'hourglasspulse',
         'dinorun',
-        'gymlift', 'ufoabduct', 'fireswirl', 'lovepulse', 'coffeesteam',
-        'ninjaslice', 'snailcrawl', 'stormflash', 'musicbeat', 'catpounce',
-        'robotsearch', 'popcornpop'
+        'gymlift',
+        'ufoabduct',
+        'fireswirl',
+        'lovepulse',
+        'coffeesteam',
+        'ninjaslice',
+        'snailcrawl',
+        'stormflash',
+        'musicbeat',
+        'catpounce',
+        'robotsearch',
+        'popcornpop',
       ];
       if (specialAliases.includes(key)) {
         // Check if the dashed equivalent is also in allKeys
-        const withDash = key.replace(/([a-z]+)([0-9a-z]+)/, (m, p1, p2) => {
+        const withDash = key.replace(/([a-z]+)([0-9a-z]+)/, () => {
           if (key === 'dots8bit') return 'dots-8bit';
           if (key === 'dotscircle') return 'dots-circle';
           if (key === 'radar2') return 'radar-2';
@@ -198,8 +262,18 @@ describe('spinners', () => {
         });
         if (allKeys.includes(withDash)) return false;
       }
-      if (key.startsWith('toggle') && key !== 'toggle' && allKeys.includes(key.replace('toggle', 'toggle-'))) return false;
-      if (key.startsWith('arrow') && key !== 'arrow' && allKeys.includes(key.replace('arrow', 'arrow-'))) return false;
+      if (
+        key.startsWith('toggle') &&
+        key !== 'toggle' &&
+        allKeys.includes(key.replace('toggle', 'toggle-'))
+      )
+        return false;
+      if (
+        key.startsWith('arrow') &&
+        key !== 'arrow' &&
+        allKeys.includes(key.replace('arrow', 'arrow-'))
+      )
+        return false;
       return true;
     });
     expect(primaryKeys.length).toBe(198);
@@ -216,7 +290,7 @@ describe('spinners', () => {
       });
 
       it('has consistent frame widths', () => {
-        const widths = spinners[name].frames.map(f => [...f].length);
+        const widths = spinners[name].frames.map((f) => [...f].length);
         expect(new Set(widths).size).toBe(1);
       });
 

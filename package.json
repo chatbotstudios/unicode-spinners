@@ -37,6 +37,8 @@
   ],
   "sideEffects": false,
   "scripts": {
+    "lint": "eslint src",
+    "format": "prettier --write src",
     "build": "tsup",
     "test": "vitest run",
     "unicode-spinners-v2": "node scripts/demo.cjs --all",
@@ -46,7 +48,8 @@
     "demo:review": "node scripts/demo.cjs --review",
     "demo:web": "node scripts/demo.cjs --web",
     "postinstall": "node scripts/postinstall.cjs",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -64,9 +67,21 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^10.6.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
     "nps": "^5.10.0",
+    "prettier": "^3.9.4",
     "tsup": "^8.4.0",
     "typescript": "^5.7.0",
+    "typescript-eslint": "^8.62.1",
     "vitest": "^3.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }

@@ -69,7 +69,9 @@ export function makeGrid(rows: number, cols: number): boolean[][] {
    ------------------------------------------- */
 
 function genScan(): string[] {
-  const W = 8, H = 4, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    frames: string[] = [];
   for (let pos = -1; pos < W + 1; pos++) {
     const g = makeGrid(H, W);
     for (let r = 0; r < H; r++) {
@@ -83,7 +85,10 @@ function genScan(): string[] {
 }
 
 function genRain(): string[] {
-  const W = 8, H = 4, totalFrames = 12, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    totalFrames = 12,
+    frames: string[] = [];
   const offsets = [0, 3, 1, 5, 2, 7, 4, 6];
   for (let f = 0; f < totalFrames; f++) {
     const g = makeGrid(H, W);
@@ -97,13 +102,15 @@ function genRain(): string[] {
 }
 
 function genScanLine(): string[] {
-  const W = 6, H = 4, frames: string[] = [];
+  const W = 6,
+    H = 4,
+    frames: string[] = [];
   const positions = [0, 1, 2, 3, 2, 1];
   for (const row of positions) {
     const g = makeGrid(H, W);
     for (let c = 0; c < W; c++) {
       g[row][c] = true;
-      if (row > 0) g[row - 1][c] = (c % 2 === 0);
+      if (row > 0) g[row - 1][c] = c % 2 === 0;
     }
     frames.push(gridToBraille(g));
   }
@@ -111,8 +118,11 @@ function genScanLine(): string[] {
 }
 
 function genPulse(): string[] {
-  const W = 6, H = 4, frames: string[] = [];
-  const cx = W / 2 - 0.5, cy = H / 2 - 0.5;
+  const W = 6,
+    H = 4,
+    frames: string[] = [];
+  const cx = W / 2 - 0.5,
+    cy = H / 2 - 0.5;
   const radii = [0.5, 1.2, 2, 3, 3.5];
   for (const r of radii) {
     const g = makeGrid(H, W);
@@ -128,7 +138,8 @@ function genPulse(): string[] {
 }
 
 function genSnake(): string[] {
-  const W = 4, H = 4;
+  const W = 4,
+    H = 4;
   const path: [number, number][] = [];
   for (let r = 0; r < H; r++) {
     if (r % 2 === 0) {
@@ -151,14 +162,34 @@ function genSnake(): string[] {
 
 function genSparkle(): string[] {
   const patterns = [
-    [1,0,0,1,0,0,1,0, 0,0,1,0,0,1,0,0, 0,1,0,0,1,0,0,1, 1,0,0,0,0,1,0,0],
-    [0,1,0,0,1,0,0,1, 1,0,0,1,0,0,0,1, 0,0,0,1,0,1,0,0, 0,0,1,0,1,0,1,0],
-    [0,0,1,0,0,1,0,0, 0,1,0,0,0,0,1,0, 1,0,1,0,0,0,0,1, 0,1,0,1,0,0,0,1],
-    [1,0,0,0,0,0,1,1, 0,0,1,0,1,0,0,0, 0,0,0,0,1,0,1,0, 1,0,0,1,0,0,1,0],
-    [0,0,0,1,1,0,0,0, 0,1,0,0,0,1,0,1, 1,0,0,1,0,0,0,0, 0,1,0,0,0,1,0,1],
-    [0,1,1,0,0,0,0,1, 0,0,0,1,0,0,1,0, 0,1,0,0,0,1,0,0, 0,0,1,0,1,0,0,0],
+    [
+      1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0,
+      0,
+    ],
+    [
+      0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1,
+      0,
+    ],
+    [
+      0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0,
+      1,
+    ],
+    [
+      1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1,
+      0,
+    ],
+    [
+      0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0,
+      1,
+    ],
+    [
+      0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0,
+      0,
+    ],
   ];
-  const W = 8, H = 4, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    frames: string[] = [];
   for (const pat of patterns) {
     const g = makeGrid(H, W);
     for (let r = 0; r < H; r++) {
@@ -172,7 +203,9 @@ function genSparkle(): string[] {
 }
 
 function genCascade(): string[] {
-  const W = 8, H = 4, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    frames: string[] = [];
   for (let offset = -2; offset < W + H; offset++) {
     const g = makeGrid(H, W);
     for (let r = 0; r < H; r++) {
@@ -187,7 +220,9 @@ function genCascade(): string[] {
 }
 
 function genColumns(): string[] {
-  const W = 6, H = 4, frames: string[] = [];
+  const W = 6,
+    H = 4,
+    frames: string[] = [];
   for (let col = 0; col < W; col++) {
     for (let fillTo = H - 1; fillTo >= 0; fillTo--) {
       const g = makeGrid(H, W);
@@ -206,12 +241,17 @@ function genColumns(): string[] {
 }
 
 function genOrbit(): string[] {
-  const W = 2, H = 4;
+  const W = 2,
+    H = 4;
   const path: [number, number][] = [
-    [0,0], [0,1],
-    [1,1], [2,1], [3,1],
-    [3,0],
-    [2,0], [1,0],
+    [0, 0],
+    [0, 1],
+    [1, 1],
+    [2, 1],
+    [3, 1],
+    [3, 0],
+    [2, 0],
+    [1, 0],
   ];
   const frames: string[] = [];
   for (let i = 0; i < path.length; i++) {
@@ -227,14 +267,56 @@ function genOrbit(): string[] {
 function genBreathe(): string[] {
   const stages: [number, number][][] = [
     [],
-    [[1,0]],
-    [[0,1],[2,0]],
-    [[0,0],[1,1],[3,0]],
-    [[0,0],[1,1],[2,0],[3,1]],
-    [[0,0],[0,1],[1,1],[2,0],[3,1]],
-    [[0,0],[0,1],[1,0],[2,1],[3,0],[3,1]],
-    [[0,0],[0,1],[1,0],[1,1],[2,0],[3,0],[3,1]],
-    [[0,0],[0,1],[1,0],[1,1],[2,0],[2,1],[3,0],[3,1]],
+    [[1, 0]],
+    [
+      [0, 1],
+      [2, 0],
+    ],
+    [
+      [0, 0],
+      [1, 1],
+      [3, 0],
+    ],
+    [
+      [0, 0],
+      [1, 1],
+      [2, 0],
+      [3, 1],
+    ],
+    [
+      [0, 0],
+      [0, 1],
+      [1, 1],
+      [2, 0],
+      [3, 1],
+    ],
+    [
+      [0, 0],
+      [0, 1],
+      [1, 0],
+      [2, 1],
+      [3, 0],
+      [3, 1],
+    ],
+    [
+      [0, 0],
+      [0, 1],
+      [1, 0],
+      [1, 1],
+      [2, 0],
+      [3, 0],
+      [3, 1],
+    ],
+    [
+      [0, 0],
+      [0, 1],
+      [1, 0],
+      [1, 1],
+      [2, 0],
+      [2, 1],
+      [3, 0],
+      [3, 1],
+    ],
   ];
   const frames: string[] = [];
   const sequence = [...stages, ...stages.slice().reverse().slice(1)];
@@ -247,12 +329,15 @@ function genBreathe(): string[] {
 }
 
 function genWaveRows(): string[] {
-  const W = 8, H = 4, totalFrames = 16, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    totalFrames = 16,
+    frames: string[] = [];
   for (let f = 0; f < totalFrames; f++) {
     const g = makeGrid(H, W);
     for (let c = 0; c < W; c++) {
-      const phase = (f - c * 0.5);
-      const row = Math.round((Math.sin(phase * 0.8) + 1) / 2 * (H - 1));
+      const phase = f - c * 0.5;
+      const row = Math.round(((Math.sin(phase * 0.8) + 1) / 2) * (H - 1));
       g[row][c] = true;
       if (row > 0) g[row - 1][c] = (f + c) % 3 === 0;
     }
@@ -262,7 +347,9 @@ function genWaveRows(): string[] {
 }
 
 function genCheckerboard(): string[] {
-  const W = 6, H = 4, frames: string[] = [];
+  const W = 6,
+    H = 4,
+    frames: string[] = [];
   for (let phase = 0; phase < 4; phase++) {
     const g = makeGrid(H, W);
     for (let r = 0; r < H; r++) {
@@ -280,13 +367,16 @@ function genCheckerboard(): string[] {
 }
 
 function genHelix(): string[] {
-  const W = 8, H = 4, totalFrames = 16, frames: string[] = [];
+  const W = 8,
+    H = 4,
+    totalFrames = 16,
+    frames: string[] = [];
   for (let f = 0; f < totalFrames; f++) {
     const g = makeGrid(H, W);
     for (let c = 0; c < W; c++) {
       const phase = (f + c) * (Math.PI / 4);
-      const y1 = Math.round((Math.sin(phase) + 1) / 2 * (H - 1));
-      const y2 = Math.round((Math.sin(phase + Math.PI) + 1) / 2 * (H - 1));
+      const y1 = Math.round(((Math.sin(phase) + 1) / 2) * (H - 1));
+      const y2 = Math.round(((Math.sin(phase + Math.PI) + 1) / 2) * (H - 1));
       g[y1][c] = true;
       g[y2][c] = true;
     }
@@ -296,7 +386,9 @@ function genHelix(): string[] {
 }
 
 function genFillSweep(): string[] {
-  const W = 4, H = 4, frames: string[] = [];
+  const W = 4,
+    H = 4,
+    frames: string[] = [];
   for (let row = H - 1; row >= 0; row--) {
     const g = makeGrid(H, W);
     for (let r = row; r < H; r++) {
@@ -320,7 +412,9 @@ function genFillSweep(): string[] {
 }
 
 function genDiagonalSwipe(): string[] {
-  const W = 4, H = 4, frames: string[] = [];
+  const W = 4,
+    H = 4,
+    frames: string[] = [];
   const maxDiag = W + H - 2;
   for (let d = 0; d <= maxDiag; d++) {
     const g = makeGrid(H, W);
@@ -361,16 +455,7 @@ const generatedSpinners = {
     category: 'legacy',
   },
   'legacy-braillewave': {
-    frames: [
-      '⠁⠂⠄⡀',
-      '⠂⠄⡀⢀',
-      '⠄⡀⢀⠠',
-      '⡀⢀⠠⠐',
-      '⢀⠠⠐⠈',
-      '⠠⠐⠈⠁',
-      '⠐⠈⠁⠂',
-      '⠈⠁⠂⠄',
-    ],
+    frames: ['⠁⠂⠄⡀', '⠂⠄⡀⢀', '⠄⡀⢀⠠', '⡀⢀⠠⠐', '⢀⠠⠐⠈', '⠠⠐⠈⠁', '⠐⠈⠁⠂', '⠈⠁⠂⠄'],
     interval: 100,
     category: 'legacy',
   },
@@ -394,21 +479,21 @@ const generatedSpinners = {
   },
 
   // === Generated braille grid animations ===
-  'legacy-scan':         { frames: genScan(),         interval: 70, category: 'legacy' },
-  'legacy-rain':         { frames: genRain(),         interval: 100, category: 'legacy' },
-  'legacy-scanline':     { frames: genScanLine(),     interval: 120, category: 'legacy' },
-  'legacy-pulse':        { frames: genPulse(),        interval: 180, category: 'legacy' },
-  'legacy-snake':        { frames: genSnake(),        interval: 80, category: 'legacy' },
-  'legacy-sparkle':      { frames: genSparkle(),      interval: 150, category: 'legacy' },
-  'legacy-cascade':      { frames: genCascade(),      interval: 60, category: 'legacy' },
-  'legacy-columns':      { frames: genColumns(),      interval: 60, category: 'legacy' },
-  'legacy-orbit':        { frames: genOrbit(),        interval: 100, category: 'legacy' },
-  'legacy-breathe':      { frames: genBreathe(),      interval: 100, category: 'legacy' },
-  'legacy-waverows':     { frames: genWaveRows(),     interval: 90, category: 'legacy' },
+  'legacy-scan': { frames: genScan(), interval: 70, category: 'legacy' },
+  'legacy-rain': { frames: genRain(), interval: 100, category: 'legacy' },
+  'legacy-scanline': { frames: genScanLine(), interval: 120, category: 'legacy' },
+  'legacy-pulse': { frames: genPulse(), interval: 180, category: 'legacy' },
+  'legacy-snake': { frames: genSnake(), interval: 80, category: 'legacy' },
+  'legacy-sparkle': { frames: genSparkle(), interval: 150, category: 'legacy' },
+  'legacy-cascade': { frames: genCascade(), interval: 60, category: 'legacy' },
+  'legacy-columns': { frames: genColumns(), interval: 60, category: 'legacy' },
+  'legacy-orbit': { frames: genOrbit(), interval: 100, category: 'legacy' },
+  'legacy-breathe': { frames: genBreathe(), interval: 100, category: 'legacy' },
+  'legacy-waverows': { frames: genWaveRows(), interval: 90, category: 'legacy' },
   'legacy-checkerboard': { frames: genCheckerboard(), interval: 250, category: 'legacy' },
-  'legacy-helix':        { frames: genHelix(),        interval: 80, category: 'legacy' },
-  'legacy-fillsweep':    { frames: genFillSweep(),    interval: 100, category: 'legacy' },
-  'legacy-diagswipe':    { frames: genDiagonalSwipe(), interval: 60, category: 'legacy' },
+  'legacy-helix': { frames: genHelix(), interval: 80, category: 'legacy' },
+  'legacy-fillsweep': { frames: genFillSweep(), interval: 100, category: 'legacy' },
+  'legacy-diagswipe': { frames: genDiagonalSwipe(), interval: 60, category: 'legacy' },
 };
 
 export const spinners: Record<string, Spinner> = {};
