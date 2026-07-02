@@ -1,0 +1,43 @@
+# unicode-spinners
+
+Over 150 incredibly lightweight, zero-dependency terminal and web loading animations provided as raw string arrays.
+
+## Core API
+
+### `spinners`
+The default export is an object containing all animations.
+Each spinner follows the `Spinner` interface:
+```typescript
+interface Spinner {
+  readonly frames: readonly string[];
+  readonly interval: number; // Suggested interval in ms
+  readonly category?: string;
+}
+```
+
+Example usage in Node.js:
+```typescript
+import spinners from 'unicode-spinners';
+
+const { frames, interval } = spinners.earth;
+let i = 0;
+const timer = setInterval(() => {
+  // \r returns to start of line, \x1B[2K clears the line
+  process.stdout.write(`\r\x1B[2K  ${frames[i++ % frames.length]} Loading...`);
+}, interval);
+```
+
+### CLI
+The library also exposes a CLI tool for agents and humans to wrap long-running commands.
+```bash
+npx unicode-spinners wrap --spinner pacman --text "Downloading..." -- curl -O http://example.com/file
+```
+
+### Advanced: Custom Braille
+You can generate custom braille spinners using the included utilities:
+```typescript
+import { makeGrid, gridToBraille } from 'unicode-spinners';
+const grid = makeGrid(4, 2);
+grid[0][0] = true;
+console.log(gridToBraille(grid));
+```
